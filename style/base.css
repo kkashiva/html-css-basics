@@ -1,0 +1,71 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: #7e31fa;
+  font-size: 36px;
+}
+
+img {
+  width: 200px;
+}
+
+main {
+  text-align: left;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background-color: #8563bb;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding: 20px;
+}
+
+ol {
+  list-style: none;
+  padding-left: 10px;
+}
+
+li {
+  padding-bottom: 8px;
+}
+
+.highlight {
+  color: wheat;
+}
+
+.highlight::before {
+  content: "|";
+  color: gold;
+}
+
+.reference {
+  text-decoration: none;
+  background-color: wheat;
+  color: black;
+  padding: 2px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.reference:hover {
+  background-color: gold;
+}
+
+.download {
+  text-decoration: none;
+  background-color: gold;
+  color: black;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.download:hover {
+  background-color: rgb(255, 227, 65);
+}
